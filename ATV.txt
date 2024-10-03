@@ -1,0 +1,26 @@
+1) Apresentar a diferença de in e of no for em Javascript. Use o exemplo abaixo como inspiração.
+
+let elementos = ['Água' ,'Fogo' ,'Ar' ,'Terra'];
+for (let indice in elementos){
+    document.write('<p>' + elementos[indice] +'</p>');
+}
+
+for (let elemento of elementos){
+    document.write('<p>' + elemento + '</p>');
+}
+
+2) Execute e explique o código-fonte Javascript abaixo:
+
+let i = 0;
+let numero = prompt('Insira um valor');
+while (numero <= 10 ){
+    document.write('<p>Linha ' + i + '</p>');
+    i++;
+    numero++;
+}
+
+3) Use o Do-While no Javascript para adicionar números pares sequenciais em um vetor conforme quantidade informada pelo usuário (de 2 a 18). Imprima o conteúdo do respectivo vetor.
+
+
+
+4) Implemente um programa em Javascript que use pelo menos três funções de string.
